@@ -5,6 +5,19 @@
   text-align: center;
 }
 
+.homepage {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+  margin: 0;
+  width: 500px;
+  height: 300px;
+}
+.homepage > div {
+  height: auto !important; /* Override the height */
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
